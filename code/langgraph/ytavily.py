@@ -1,8 +1,12 @@
 import os
+from dotenv import load_dotenv
 from langchain_tavily import TavilySearch
 from langchain.chat_models import init_chat_model
 from langgraph.prebuilt import create_react_agent
 from langchain_openai import ChatOpenAI
+
+# 加载.env文件
+load_dotenv()
 
 # Configure LangSmith - 从环境变量读取
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
