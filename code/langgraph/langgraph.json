@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "search_agent": "./ytavily.py:search_agent"
+  },
+  "env": ".env"
+}

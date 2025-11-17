@@ -11,7 +11,7 @@ load_dotenv()
 # Configure LangSmith - 从环境变量读取
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY", "")
-os.environ["LANGCHAIN_PROJECT"] = os.getenv("LANGCHAIN_PROJECT", "default")
+os.environ["LANGCHAIN_PROJECT"] = os.getenv("LANGCHAIN_PROJECT", "ytavily")
 
 # 从环境变量读取API密钥
 openai_api_key = os.getenv("OPENAI_API_KEY", "")
